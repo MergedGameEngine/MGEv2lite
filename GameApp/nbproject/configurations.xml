@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
+      <logicalFolder name="f14" displayName="_MGEv1_Test" projectFiles="true">
+        <itemPath>_MGEv1_Test/RendererOutput.h</itemPath>
+        <itemPath>_MGEv1_Test/TempModel.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="MGE__Config" projectFiles="true">
+        <itemPath>MGE__Config/Config.h</itemPath>
+        <itemPath>MGE__Config/Config.hpp</itemPath>
+        <itemPath>MGE__Config/ConfigFile.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="MGE__MathTool" projectFiles="true">
+        <itemPath>MGE__MathTool/MathTool.h</itemPath>
+        <itemPath>MGE__MathTool/MathTool.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f13" displayName="MGE__ModelData" projectFiles="true">
+        <logicalFolder name="f1" displayName="Animation" projectFiles="true">
+          <itemPath>MGE__ModelData/KeyFrame.h</itemPath>
+          <itemPath>MGE__ModelData/KeyFrame.hpp</itemPath>
+          <itemPath>MGE__ModelData/Sequence.h</itemPath>
+          <itemPath>MGE__ModelData/Sequence.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="Collision" projectFiles="true">
+          <itemPath>MGE__ModelData/CollisionDetectingMatrices.h</itemPath>
+          <itemPath>MGE__ModelData/CollisionDetectingMatrices.hpp</itemPath>
+          <itemPath>MGE__ModelData/CollisionDetectingMatricesController.h</itemPath>
+          <itemPath>MGE__ModelData/CollisionDetectingMatricesController.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="Model" projectFiles="true">
+          <itemPath>MGE__ModelData/Bone.h</itemPath>
+          <itemPath>MGE__ModelData/Bone.hpp</itemPath>
+          <itemPath>MGE__ModelData/BoneController.h</itemPath>
+          <itemPath>MGE__ModelData/BoneTreeNode.h</itemPath>
+          <itemPath>MGE__ModelData/BoneTreeNode.hpp</itemPath>
+          <itemPath>MGE__ModelData/Mesh.h</itemPath>
+          <itemPath>MGE__ModelData/Mesh.hpp</itemPath>
+          <itemPath>MGE__ModelData/Model.h</itemPath>
+          <itemPath>MGE__ModelData/Model.hpp</itemPath>
+          <itemPath>MGE__ModelData/Surface.h</itemPath>
+          <itemPath>MGE__ModelData/Surface.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="Texture" projectFiles="true">
+          <itemPath>MGE__ModelData/DDSTexture.h</itemPath>
+          <itemPath>MGE__ModelData/DDSTexture.hpp</itemPath>
+          <itemPath>MGE__ModelData/TGATexture.h</itemPath>
+          <itemPath>MGE__ModelData/TGATexture.hpp</itemPath>
+          <itemPath>MGE__ModelData/Texture.h</itemPath>
+          <itemPath>MGE__ModelData/Texture.hpp</itemPath>
+        </logicalFolder>
+        <itemPath>MGE__ModelData/ModelPack.h</itemPath>
+        <itemPath>MGE__ModelData/ModelPack.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="MGE_Base" projectFiles="true">
+        <itemPath>MGE_Base/Array.h</itemPath>
+        <itemPath>MGE_Base/Array.hpp</itemPath>
+        <itemPath>MGE_Base/Base.h</itemPath>
+        <itemPath>MGE_Base/Base.hpp</itemPath>
+        <itemPath>MGE_Base/CRC32.h</itemPath>
+        <itemPath>MGE_Base/RefArray.h</itemPath>
+        <itemPath>MGE_Base/RefArray.hpp</itemPath>
+        <itemPath>MGE_Base/Type.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="MGE_File" projectFiles="true">
+        <itemPath>MGE_File/File.h</itemPath>
+        <itemPath>MGE_File/FileStream.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="MGE_Network" projectFiles="true">
+        <itemPath>MGE_Network/Client.h</itemPath>
+        <itemPath>MGE_Network/Client.hpp</itemPath>
+        <itemPath>MGE_Network/ClientHandler.h</itemPath>
+        <itemPath>MGE_Network/ClientHandler.hpp</itemPath>
+        <itemPath>MGE_Network/Network.h</itemPath>
+        <itemPath>MGE_Network/Server.h</itemPath>
+        <itemPath>MGE_Network/Server.hpp</itemPath>
+        <itemPath>MGE_Network/TSocket.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="MGE_Thread" projectFiles="true">
+        <itemPath>MGE_Thread/Thread.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="MGEv2__Game" projectFiles="true">
+        <logicalFolder name="f1" displayName="RendererInterface" projectFiles="true">
+          <itemPath>MGEv2__Game/InterfaceVFrameObject.h</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVFrameObject.hpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVMeshObject.h</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVMeshObject.hpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVParameter.h</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVParameter.hpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVRendererContext.h</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVRendererContext.hpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVRendererObject.h</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVRendererObject.hpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVShaderObject.h</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVShaderObject.hpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVTextureObject.h</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVTextureObject.hpp</itemPath>
+        </logicalFolder>
+        <itemPath>MGEv2__Game/Core.h</itemPath>
+        <itemPath>MGEv2__Game/Core.hpp</itemPath>
+        <itemPath>MGEv2__Game/GameObject.h</itemPath>
+        <itemPath>MGEv2__Game/GameObject.hpp</itemPath>
+        <itemPath>MGEv2__Game/MGEImport.h</itemPath>
+        <itemPath>MGEv2__Game/MessageProc.h</itemPath>
+        <itemPath>MGEv2__Game/MessageProc.hpp</itemPath>
+        <itemPath>MGEv2__Game/Sandbox.h</itemPath>
+        <itemPath>MGEv2__Game/Sandbox.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="MGEv2__GLESRenderer" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="f9" displayName="MGEv2__GLRenderer" projectFiles="true">
+        <itemPath>MGEv2__GLRenderer/GLFrameObject.h</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLFrameObject.hpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLMeshObject.h</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLMeshObject.hpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLParameter.h</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLParameter.hpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLRendererContext.h</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLRendererObject.h</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLRendererObject.hpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLShaderObject.h</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLShaderObject.hpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLTextureObject.h</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLTextureObject.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f10" displayName="MGEv2__VKRenderer" projectFiles="true">
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+      <logicalFolder name="f14" displayName="_MGEv1_Test" projectFiles="true">
+        <itemPath>_MGEv1_Test/RendererOutput.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="MGE__Config" projectFiles="true">
+        <itemPath>MGE__Config/Config.cpp</itemPath>
+        <itemPath>MGE__Config/ConfigFile.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="MGE__MathTool" projectFiles="true">
+        <itemPath>MGE__MathTool/MathTool.cpp</itemPath>
+        <itemPath>MGE__MathTool/Matrix22f.cpp</itemPath>
+        <itemPath>MGE__MathTool/Matrix33f.cpp</itemPath>
+        <itemPath>MGE__MathTool/Matrix34f.cpp</itemPath>
+        <itemPath>MGE__MathTool/Matrix44f.cpp</itemPath>
+        <itemPath>MGE__MathTool/Quaternionf.cpp</itemPath>
+        <itemPath>MGE__MathTool/TexCoord2f.cpp</itemPath>
+        <itemPath>MGE__MathTool/Transformf.cpp</itemPath>
+        <itemPath>MGE__MathTool/Triangle.cpp</itemPath>
+        <itemPath>MGE__MathTool/Vector3f.cpp</itemPath>
+        <itemPath>MGE__MathTool/Vector4f.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f13" displayName="MGE__ModelData" projectFiles="true">
+        <logicalFolder name="f1" displayName="Animation" projectFiles="true">
+          <itemPath>MGE__ModelData/KeyFrame.cpp</itemPath>
+          <itemPath>MGE__ModelData/Sequence.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="Collision" projectFiles="true">
+          <itemPath>MGE__ModelData/CollisionDetectingMatrices.cpp</itemPath>
+          <itemPath>MGE__ModelData/CollisionDetectingMatricesController.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="Model" projectFiles="true">
+          <itemPath>MGE__ModelData/Bone.cpp</itemPath>
+          <itemPath>MGE__ModelData/BoneController.cpp</itemPath>
+          <itemPath>MGE__ModelData/BoneTreeNode.cpp</itemPath>
+          <itemPath>MGE__ModelData/Mesh.cpp</itemPath>
+          <itemPath>MGE__ModelData/Model.cpp</itemPath>
+          <itemPath>MGE__ModelData/Surface.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="Texture" projectFiles="true">
+          <itemPath>MGE__ModelData/DDSTexture.cpp</itemPath>
+          <itemPath>MGE__ModelData/TGATexture.cpp</itemPath>
+          <itemPath>MGE__ModelData/Texture.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>MGE__ModelData/ModelPack.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="MGE_Base" projectFiles="true">
+        <itemPath>MGE_Base/Array.cpp</itemPath>
+        <itemPath>MGE_Base/CRC32.cpp</itemPath>
+        <itemPath>MGE_Base/Hashtable.cpp</itemPath>
+        <itemPath>MGE_Base/ObjectArray.cpp</itemPath>
+        <itemPath>MGE_Base/RefArray.cpp</itemPath>
+        <itemPath>MGE_Base/String.cpp</itemPath>
+        <itemPath>MGE_Base/String16.cpp</itemPath>
+        <itemPath>MGE_Base/Variant.cpp</itemPath>
+        <itemPath>MGE_Base/WString.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="MGE_File" projectFiles="true">
+        <itemPath>MGE_File/File.cpp</itemPath>
+        <itemPath>MGE_File/FileStream.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="MGE_Network" projectFiles="true">
+        <itemPath>MGE_Network/Client.cpp</itemPath>
+        <itemPath>MGE_Network/ClientHandler.cpp</itemPath>
+        <itemPath>MGE_Network/Network.cpp</itemPath>
+        <itemPath>MGE_Network/Server.cpp</itemPath>
+        <itemPath>MGE_Network/TSocket.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="MGE_Thread" projectFiles="true">
+        <itemPath>MGE_Thread/Barrier.cpp</itemPath>
+        <itemPath>MGE_Thread/Condition.cpp</itemPath>
+        <itemPath>MGE_Thread/Lock.cpp</itemPath>
+        <itemPath>MGE_Thread/Mutex.cpp</itemPath>
+        <itemPath>MGE_Thread/RWLock.cpp</itemPath>
+        <itemPath>MGE_Thread/Semaphore.cpp</itemPath>
+        <itemPath>MGE_Thread/SpinLock.cpp</itemPath>
+        <itemPath>MGE_Thread/Thread.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="MGEv2__Game" projectFiles="true">
+        <logicalFolder name="f1" displayName="RendererInterface" projectFiles="true">
+          <itemPath>MGEv2__Game/InterfaceVFrameObject.cpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVMeshObject.cpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVParameter.cpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVRendererContext.cpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVRendererObject.cpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVShaderObject.cpp</itemPath>
+          <itemPath>MGEv2__Game/InterfaceVTextureObject.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>MGEv2__Game/Core.cpp</itemPath>
+        <itemPath>MGEv2__Game/GameObject.cpp</itemPath>
+        <itemPath>MGEv2__Game/MessageProc.cpp</itemPath>
+        <itemPath>MGEv2__Game/Sandbox.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="MGEv2__GLESRenderer" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="f9" displayName="MGEv2__GLRenderer" projectFiles="true">
+        <itemPath>MGEv2__GLRenderer/GLFrameObject.cpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLMeshObject.cpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLParameter.cpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLRendererContext.cpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLRendererObject.cpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLShaderObject.cpp</itemPath>
+        <itemPath>MGEv2__GLRenderer/GLTextureObject.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f10" displayName="MGEv2__VKRenderer" projectFiles="true">
+      </logicalFolder>
+      <itemPath>GameApp.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles" displayName="资源文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="测试文件"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/GameApp</output>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs gl`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs glew`</linkerOptionItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerOptionItem>`pkg-config --libs x11`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="GameApp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/Array.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/Array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/Array.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/Base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/Base.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/CRC32.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/CRC32.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/Hashtable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/ObjectArray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/RefArray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/RefArray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/RefArray.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/String.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/String16.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/Type.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/Variant.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/WString.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_File/File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_File/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_File/FileStream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_File/FileStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/Client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Network/Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/Client.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/ClientHandler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Network/ClientHandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/ClientHandler.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/Network.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Network/Network.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/Server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Network/Server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/Server.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/TSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Network/TSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Barrier.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Condition.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Lock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Mutex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/RWLock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Semaphore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/SpinLock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__Config/Config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__Config/Config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__Config/Config.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__Config/ConfigFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__Config/ConfigFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/MathTool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/MathTool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/MathTool.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Matrix22f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Matrix33f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Matrix34f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Matrix44f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Quaternionf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/TexCoord2f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Transformf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Triangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Vector3f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Vector4f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Bone.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Bone.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Bone.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/BoneController.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/BoneController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/BoneTreeNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/BoneTreeNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/BoneTreeNode.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatrices.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatrices.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatrices.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatricesController.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatricesController.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatricesController.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/DDSTexture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/DDSTexture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/DDSTexture.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/KeyFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/KeyFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/KeyFrame.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Mesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Mesh.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Model.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/ModelPack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/ModelPack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/ModelPack.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Sequence.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Sequence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Sequence.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Surface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Surface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Surface.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/TGATexture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/TGATexture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/TGATexture.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Texture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Texture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Texture.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLFrameObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLFrameObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLFrameObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLMeshObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLMeshObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLMeshObject.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLParameter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLParameter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLParameter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLRendererContext.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLRendererContext.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLRendererObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLRendererObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLRendererObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLShaderObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLShaderObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLShaderObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLTextureObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLTextureObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLTextureObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Core.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/GameObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/GameObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/GameObject.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVFrameObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVFrameObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVFrameObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVMeshObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVMeshObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVMeshObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVParameter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVParameter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVParameter.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererContext.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererContext.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererContext.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVShaderObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVShaderObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVShaderObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVTextureObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVTextureObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVTextureObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/MGEImport.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/MessageProc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/MessageProc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/MessageProc.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Sandbox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Sandbox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Sandbox.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_MGEv1_Test/RendererOutput.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_MGEv1_Test/RendererOutput.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_MGEv1_Test/TempModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/GameApp</output>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs gl`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs glew`</linkerOptionItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerOptionItem>`pkg-config --libs x11`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="GameApp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/Array.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/Array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/Array.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/Base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/Base.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/CRC32.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/CRC32.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/Hashtable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/ObjectArray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/RefArray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/RefArray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/RefArray.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/String.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/String16.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/Type.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Base/Variant.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Base/WString.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_File/File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_File/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_File/FileStream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_File/FileStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/Client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Network/Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/Client.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/ClientHandler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Network/ClientHandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/ClientHandler.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/Network.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Network/Network.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/Server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Network/Server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/Server.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Network/TSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Network/TSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Barrier.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Condition.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Lock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Mutex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/RWLock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Semaphore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/SpinLock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE_Thread/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__Config/Config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__Config/Config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__Config/Config.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__Config/ConfigFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__Config/ConfigFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/MathTool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/MathTool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/MathTool.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Matrix22f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Matrix33f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Matrix34f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Matrix44f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Quaternionf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/TexCoord2f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Transformf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Triangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Vector3f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__MathTool/Vector4f.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Bone.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Bone.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Bone.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/BoneController.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/BoneController.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/BoneTreeNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/BoneTreeNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/BoneTreeNode.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatrices.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatrices.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatrices.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatricesController.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatricesController.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/CollisionDetectingMatricesController.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGE__ModelData/DDSTexture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/DDSTexture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/DDSTexture.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/KeyFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/KeyFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/KeyFrame.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Mesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Mesh.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Model.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/ModelPack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/ModelPack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/ModelPack.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Sequence.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Sequence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Sequence.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Surface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Surface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Surface.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/TGATexture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/TGATexture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/TGATexture.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Texture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Texture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGE__ModelData/Texture.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLFrameObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLFrameObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLFrameObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLMeshObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLMeshObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLMeshObject.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLParameter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLParameter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLParameter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLRendererContext.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLRendererContext.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLRendererObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLRendererObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLRendererObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLShaderObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLShaderObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLShaderObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLTextureObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLTextureObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__GLRenderer/GLTextureObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Core.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/GameObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/GameObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/GameObject.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVFrameObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVFrameObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVFrameObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVMeshObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVMeshObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVMeshObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVParameter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVParameter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVParameter.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererContext.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererContext.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererContext.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVRendererObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVShaderObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVShaderObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVShaderObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVTextureObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVTextureObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/InterfaceVTextureObject.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MGEv2__Game/MGEImport.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/MessageProc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/MessageProc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/MessageProc.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Sandbox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Sandbox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MGEv2__Game/Sandbox.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_MGEv1_Test/RendererOutput.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="_MGEv1_Test/RendererOutput.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="_MGEv1_Test/TempModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

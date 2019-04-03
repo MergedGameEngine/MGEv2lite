@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7E46892B-2622-4BCC-9FC2-B9E612593395}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GameApp</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\GLEW\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>WS2_32.LIB;../lib/pthreadVC2.lib;opengl32.lib;../GLEW/lib/Release/Win32/glew32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\GLEW\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>WS2_32.LIB;../lib/pthreadVC2.lib;opengl32.lib;../GLEW/lib/Release/Win32/glew32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\Debug\shaders\norm.fs" />
+    <None Include="..\Debug\shaders\norm.vs" />
+    <None Include="..\Debug\shaders\skinning.fs" />
+    <None Include="..\Debug\shaders\skinning.vs" />
+    <None Include="..\Debug\shaders\stransform.fs" />
+    <None Include="..\Debug\shaders\stransform.vs" />
+    <None Include="GameApp.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MGEv2__Game\Core.h" />
+    <ClInclude Include="..\MGEv2__Game\Core.hpp" />
+    <ClInclude Include="..\MGEv2__Game\GameObject.h" />
+    <ClInclude Include="..\MGEv2__Game\GameObject.hpp" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVFrameObject.h" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVFrameObject.hpp" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVMeshObject.h" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVMeshObject.hpp" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVParameter.h" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVParameter.hpp" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVRendererContext.h" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVRendererContext.hpp" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVRendererObject.h" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVRendererObject.hpp" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVShaderObject.h" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVShaderObject.hpp" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVTextureObject.h" />
+    <ClInclude Include="..\MGEv2__Game\InterfaceVTextureObject.hpp" />
+    <ClInclude Include="..\MGEv2__Game\MessageProc.h" />
+    <ClInclude Include="..\MGEv2__Game\MessageProc.hpp" />
+    <ClInclude Include="..\MGEv2__Game\MGEImport.h" />
+    <ClInclude Include="..\MGEv2__Game\Sandbox.h" />
+    <ClInclude Include="..\MGEv2__Game\Sandbox.hpp" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLFrameObject.h" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLFrameObject.hpp" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLMeshObject.h" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLMeshObject.hpp" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLParameter.h" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLParameter.hpp" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLRendererContext.h" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLRendererObject.h" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLRendererObject.hpp" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLShaderObject.h" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLShaderObject.hpp" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLTextureObject.h" />
+    <ClInclude Include="..\MGEv2__GLRenderer\GLTextureObject.hpp" />
+    <ClInclude Include="..\MGE_Base\Array.h" />
+    <ClInclude Include="..\MGE_Base\Array.hpp" />
+    <ClInclude Include="..\MGE_Base\Base.h" />
+    <ClInclude Include="..\MGE_Base\Base.hpp" />
+    <ClInclude Include="..\MGE_Base\CRC32.h" />
+    <ClInclude Include="..\MGE_Base\RefArray.h" />
+    <ClInclude Include="..\MGE_Base\RefArray.hpp" />
+    <ClInclude Include="..\MGE_Base\Type.h" />
+    <ClInclude Include="..\MGE_File\File.h" />
+    <ClInclude Include="..\MGE_File\FileStream.h" />
+    <ClInclude Include="..\MGE_Network\Client.h" />
+    <ClInclude Include="..\MGE_Network\Client.hpp" />
+    <ClInclude Include="..\MGE_Network\ClientHandler.h" />
+    <ClInclude Include="..\MGE_Network\ClientHandler.hpp" />
+    <ClInclude Include="..\MGE_Network\Network.h" />
+    <ClInclude Include="..\MGE_Network\Server.h" />
+    <ClInclude Include="..\MGE_Network\Server.hpp" />
+    <ClInclude Include="..\MGE_Network\TSocket.h" />
+    <ClInclude Include="..\MGE_Thread\Thread.h" />
+    <ClInclude Include="..\MGE__Config\Config.h" />
+    <ClInclude Include="..\MGE__Config\Config.hpp" />
+    <ClInclude Include="..\MGE__Config\ConfigFile.h" />
+    <ClInclude Include="..\MGE__MathTool\MathTool.h" />
+    <ClInclude Include="..\MGE__MathTool\MathTool.hpp" />
+    <ClInclude Include="..\MGE__ModelData\Bone.h" />
+    <ClInclude Include="..\MGE__ModelData\Bone.hpp" />
+    <ClInclude Include="..\MGE__ModelData\BoneController.h" />
+    <ClInclude Include="..\MGE__ModelData\BoneTreeNode.h" />
+    <ClInclude Include="..\MGE__ModelData\BoneTreeNode.hpp" />
+    <ClInclude Include="..\MGE__ModelData\CollisionDetectingMatrices.h" />
+    <ClInclude Include="..\MGE__ModelData\CollisionDetectingMatrices.hpp" />
+    <ClInclude Include="..\MGE__ModelData\CollisionDetectingMatricesController.h" />
+    <ClInclude Include="..\MGE__ModelData\CollisionDetectingMatricesController.hpp" />
+    <ClInclude Include="..\MGE__ModelData\DDSTexture.h" />
+    <ClInclude Include="..\MGE__ModelData\DDSTexture.hpp" />
+    <ClInclude Include="..\MGE__ModelData\KeyFrame.h" />
+    <ClInclude Include="..\MGE__ModelData\KeyFrame.hpp" />
+    <ClInclude Include="..\MGE__ModelData\Mesh.h" />
+    <ClInclude Include="..\MGE__ModelData\Mesh.hpp" />
+    <ClInclude Include="..\MGE__ModelData\Model.h" />
+    <ClInclude Include="..\MGE__ModelData\Model.hpp" />
+    <ClInclude Include="..\MGE__ModelData\ModelPack.h" />
+    <ClInclude Include="..\MGE__ModelData\ModelPack.hpp" />
+    <ClInclude Include="..\MGE__ModelData\Sequence.h" />
+    <ClInclude Include="..\MGE__ModelData\Sequence.hpp" />
+    <ClInclude Include="..\MGE__ModelData\Surface.h" />
+    <ClInclude Include="..\MGE__ModelData\Surface.hpp" />
+    <ClInclude Include="..\MGE__ModelData\Texture.h" />
+    <ClInclude Include="..\MGE__ModelData\Texture.hpp" />
+    <ClInclude Include="..\MGE__ModelData\TGATexture.h" />
+    <ClInclude Include="..\MGE__ModelData\TGATexture.hpp" />
+    <ClInclude Include="..\_MGEv1_Test\RendererOutput.h" />
+    <ClInclude Include="GameApplication.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\MGEv2__Game\Core.cpp" />
+    <ClCompile Include="..\MGEv2__Game\GameObject.cpp" />
+    <ClCompile Include="..\MGEv2__Game\InterfaceVFrameObject.cpp" />
+    <ClCompile Include="..\MGEv2__Game\InterfaceVMeshObject.cpp" />
+    <ClCompile Include="..\MGEv2__Game\InterfaceVParameter.cpp" />
+    <ClCompile Include="..\MGEv2__Game\InterfaceVRendererContext.cpp" />
+    <ClCompile Include="..\MGEv2__Game\InterfaceVRendererObject.cpp" />
+    <ClCompile Include="..\MGEv2__Game\InterfaceVShaderObject.cpp" />
+    <ClCompile Include="..\MGEv2__Game\InterfaceVTextureObject.cpp" />
+    <ClCompile Include="..\MGEv2__Game\MessageProc.cpp" />
+    <ClCompile Include="..\MGEv2__Game\Sandbox.cpp" />
+    <ClCompile Include="..\MGEv2__GLRenderer\GLFrameObject.cpp" />
+    <ClCompile Include="..\MGEv2__GLRenderer\GLMeshObject.cpp" />
+    <ClCompile Include="..\MGEv2__GLRenderer\GLParameter.cpp" />
+    <ClCompile Include="..\MGEv2__GLRenderer\GLRendererContext.cpp" />
+    <ClCompile Include="..\MGEv2__GLRenderer\GLRendererObject.cpp" />
+    <ClCompile Include="..\MGEv2__GLRenderer\GLShaderObject.cpp" />
+    <ClCompile Include="..\MGEv2__GLRenderer\GLTextureObject.cpp" />
+    <ClCompile Include="..\MGE_Base\Array.cpp" />
+    <ClCompile Include="..\MGE_Base\CRC32.cpp" />
+    <ClCompile Include="..\MGE_Base\Hashtable.cpp" />
+    <ClCompile Include="..\MGE_Base\ObjectArray.cpp" />
+    <ClCompile Include="..\MGE_Base\RefArray.cpp" />
+    <ClCompile Include="..\MGE_Base\String.cpp" />
+    <ClCompile Include="..\MGE_Base\String16.cpp" />
+    <ClCompile Include="..\MGE_Base\Variant.cpp" />
+    <ClCompile Include="..\MGE_Base\WString.cpp" />
+    <ClCompile Include="..\MGE_File\File.cpp" />
+    <ClCompile Include="..\MGE_File\FileStream.cpp" />
+    <ClCompile Include="..\MGE_Network\Client.cpp" />
+    <ClCompile Include="..\MGE_Network\ClientHandler.cpp" />
+    <ClCompile Include="..\MGE_Network\Network.cpp" />
+    <ClCompile Include="..\MGE_Network\Server.cpp" />
+    <ClCompile Include="..\MGE_Network\TSocket.cpp" />
+    <ClCompile Include="..\MGE_Thread\Barrier.cpp" />
+    <ClCompile Include="..\MGE_Thread\Condition.cpp" />
+    <ClCompile Include="..\MGE_Thread\Lock.cpp" />
+    <ClCompile Include="..\MGE_Thread\Mutex.cpp" />
+    <ClCompile Include="..\MGE_Thread\RWLock.cpp" />
+    <ClCompile Include="..\MGE_Thread\Semaphore.cpp" />
+    <ClCompile Include="..\MGE_Thread\SpinLock.cpp" />
+    <ClCompile Include="..\MGE_Thread\Thread.cpp" />
+    <ClCompile Include="..\MGE__Config\Config.cpp" />
+    <ClCompile Include="..\MGE__Config\ConfigFile.cpp" />
+    <ClCompile Include="..\MGE__MathTool\MathTool.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Matrix22f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Matrix33f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Matrix34f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Matrix44f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Quaternionf.cpp" />
+    <ClCompile Include="..\MGE__MathTool\TexCoord2f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Transformf.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Triangle.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Vector3f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Vector4f.cpp" />
+    <ClCompile Include="..\MGE__ModelData\Bone.cpp" />
+    <ClCompile Include="..\MGE__ModelData\BoneController.cpp" />
+    <ClCompile Include="..\MGE__ModelData\BoneTreeNode.cpp" />
+    <ClCompile Include="..\MGE__ModelData\CollisionDetectingMatrices.cpp" />
+    <ClCompile Include="..\MGE__ModelData\CollisionDetectingMatricesController.cpp" />
+    <ClCompile Include="..\MGE__ModelData\DDSTexture.cpp" />
+    <ClCompile Include="..\MGE__ModelData\KeyFrame.cpp" />
+    <ClCompile Include="..\MGE__ModelData\Mesh.cpp" />
+    <ClCompile Include="..\MGE__ModelData\Model.cpp" />
+    <ClCompile Include="..\MGE__ModelData\ModelPack.cpp" />
+    <ClCompile Include="..\MGE__ModelData\Sequence.cpp" />
+    <ClCompile Include="..\MGE__ModelData\Surface.cpp" />
+    <ClCompile Include="..\MGE__ModelData\Texture.cpp" />
+    <ClCompile Include="..\MGE__ModelData\TGATexture.cpp" />
+    <ClCompile Include="..\_MGEv1_Test\RendererOutput.cpp" />
+    <ClCompile Include="GameApplication.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameApp.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

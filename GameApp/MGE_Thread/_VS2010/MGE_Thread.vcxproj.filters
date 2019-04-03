@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{17d7b67b-9616-4db6-88f5-9d2facd61609}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8aff96ab-b4b2-4cc8-aea4-ea9d0a7634cd}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{21072ff4-f89f-43d6-8a8c-ec60b0de1463}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Shared Header Files">
+      <UniqueIdentifier>{29fdef5e-5330-4718-809f-2c6a4e0f8512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Header Files\pThread">
+      <UniqueIdentifier>{b20cd747-0096-4dd3-a1a6-4b2bed029d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Header Files\Base">
+      <UniqueIdentifier>{cfb00e4c-c15a-4300-9225-ab898752401c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RWLock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Semaphore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinLock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthread.h">
+      <Filter>Shared Header Files\pThread</Filter>
+    </ClInclude>
+    <ClInclude Include="sched.h">
+      <Filter>Shared Header Files\pThread</Filter>
+    </ClInclude>
+    <ClInclude Include="semaphore.h">
+      <Filter>Shared Header Files\pThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Base\Base.h">
+      <Filter>Shared Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Base\Type.h">
+      <Filter>Shared Header Files\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

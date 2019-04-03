@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2E5E5478-5D61-4578-A2A9-2FDCFC907491}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TestMGEv2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;VSDEBUGLOG;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\GLEW\include;..\MGE_Network;..\MGE_Thread;..\MGE_Base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;WS2_32.LIB;../lib/pthreadVC2.lib;opengl32.lib;../GLEW/lib/Release/Win32/glew32.lib;atlsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\GLEW\include;..\MGE_Network;..\MGE_Thread;..\MGE_Base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;WS2_32.LIB;../lib/pthreadVC2.lib;opengl32.lib;../GLEW/lib/Release/Win32/glew32.lib;atlsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MGE_Base\Array.h" />
+    <ClInclude Include="..\MGE_Base\Array.hpp" />
+    <ClInclude Include="..\MGE_Base\Base.h" />
+    <ClInclude Include="..\MGE_Base\Base.hpp" />
+    <ClInclude Include="..\MGE_Base\CRC32.h" />
+    <ClInclude Include="..\MGE_Base\RefArray.h" />
+    <ClInclude Include="..\MGE_Base\RefArray.hpp" />
+    <ClInclude Include="..\MGE_Base\Type.h" />
+    <ClInclude Include="..\MGE_File\File.h" />
+    <ClInclude Include="..\MGE_File\FileStream.h" />
+    <ClInclude Include="..\MGE_Network\Client.h" />
+    <ClInclude Include="..\MGE_Network\Client.hpp" />
+    <ClInclude Include="..\MGE_Network\ClientHandler.h" />
+    <ClInclude Include="..\MGE_Network\ClientHandler.hpp" />
+    <ClInclude Include="..\MGE_Network\Network.h" />
+    <ClInclude Include="..\MGE_Network\Server.h" />
+    <ClInclude Include="..\MGE_Network\Server.hpp" />
+    <ClInclude Include="..\MGE_Network\TSocket.h" />
+    <ClInclude Include="..\MGE_Thread\Thread.h" />
+    <ClInclude Include="..\MGE__Config\Config.h" />
+    <ClInclude Include="..\MGE__Config\Config.hpp" />
+    <ClInclude Include="..\MGE__Config\ConfigFile.h" />
+    <ClInclude Include="..\MGE__MathTool\MathTool.h" />
+    <ClInclude Include="..\MGE__MathTool\MathTool.hpp" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\MGE_Base\Array.cpp" />
+    <ClCompile Include="..\MGE_Base\CRC32.cpp" />
+    <ClCompile Include="..\MGE_Base\Hashtable.cpp" />
+    <ClCompile Include="..\MGE_Base\ObjectArray.cpp" />
+    <ClCompile Include="..\MGE_Base\RefArray.cpp" />
+    <ClCompile Include="..\MGE_Base\String.cpp" />
+    <ClCompile Include="..\MGE_Base\String16.cpp" />
+    <ClCompile Include="..\MGE_Base\Variant.cpp" />
+    <ClCompile Include="..\MGE_Base\WString.cpp" />
+    <ClCompile Include="..\MGE_File\File.cpp" />
+    <ClCompile Include="..\MGE_File\FileStream.cpp" />
+    <ClCompile Include="..\MGE_Network\Client.cpp" />
+    <ClCompile Include="..\MGE_Network\ClientHandler.cpp" />
+    <ClCompile Include="..\MGE_Network\Network.cpp" />
+    <ClCompile Include="..\MGE_Network\Server.cpp" />
+    <ClCompile Include="..\MGE_Network\TSocket.cpp" />
+    <ClCompile Include="..\MGE_Thread\Barrier.cpp" />
+    <ClCompile Include="..\MGE_Thread\Condition.cpp" />
+    <ClCompile Include="..\MGE_Thread\Lock.cpp" />
+    <ClCompile Include="..\MGE_Thread\Mutex.cpp" />
+    <ClCompile Include="..\MGE_Thread\RWLock.cpp" />
+    <ClCompile Include="..\MGE_Thread\Semaphore.cpp" />
+    <ClCompile Include="..\MGE_Thread\SpinLock.cpp" />
+    <ClCompile Include="..\MGE_Thread\Thread.cpp" />
+    <ClCompile Include="..\MGE__Config\Config.cpp" />
+    <ClCompile Include="..\MGE__Config\ConfigFile.cpp" />
+    <ClCompile Include="..\MGE__MathTool\MathTool.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Matrix22f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Matrix33f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Matrix34f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Matrix44f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Quaternionf.cpp" />
+    <ClCompile Include="..\MGE__MathTool\TexCoord2f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Transformf.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Triangle.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Vector3f.cpp" />
+    <ClCompile Include="..\MGE__MathTool\Vector4f.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TestMGEv2.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

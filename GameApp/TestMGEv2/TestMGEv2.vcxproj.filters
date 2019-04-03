@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\MGE_Base">
+      <UniqueIdentifier>{ada3af4c-86ba-4385-a25c-28fe35955ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE_Base">
+      <UniqueIdentifier>{1fc9478e-75e2-402f-a3ac-53a19247a4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE_Thread">
+      <UniqueIdentifier>{5197465a-81c4-4883-a280-69aa8222b70c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE_Thread">
+      <UniqueIdentifier>{e1c06587-8526-46c7-ab01-bdc61f63879a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE_Network">
+      <UniqueIdentifier>{672c72cc-0fad-4f4e-b083-101eea0bbce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE_Network">
+      <UniqueIdentifier>{a422c526-b719-441f-bace-f89e924667ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE_File">
+      <UniqueIdentifier>{f1187a88-2d80-43c4-a52e-48decc3e2803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE_File">
+      <UniqueIdentifier>{772eba3b-a73c-4f80-91c2-a8b72fbbc67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE__MathTool">
+      <UniqueIdentifier>{f61e70e7-e347-486d-9b23-beebc92f68a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE__Config">
+      <UniqueIdentifier>{b0c7aa30-7f18-4b7e-9663-d4a5f19d5e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE__MathTool">
+      <UniqueIdentifier>{352a9865-74de-4ad3-acc3-295196532219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE__Config">
+      <UniqueIdentifier>{ade79510-491f-4d9a-8129-6ce2dc32d582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGEv2__Game">
+      <UniqueIdentifier>{5ef51571-3662-4877-b95b-9c6b6c451d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGEv2__Game">
+      <UniqueIdentifier>{47b13102-056b-465f-8e54-cd69cfccd523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGEv2__GLRenderer">
+      <UniqueIdentifier>{15e10619-92d3-4e31-8339-1c0f408cda99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGEv2__GLRenderer">
+      <UniqueIdentifier>{0b00ae6d-59e8-48d3-8e19-4b32103767a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGEv2__VKRenderer">
+      <UniqueIdentifier>{99da47a6-67d1-4a0c-92ab-9a91ee4020ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGEv2__VKRenderer">
+      <UniqueIdentifier>{de67c1b4-045c-462f-99df-598251ab7e64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\Array.h">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\Array.hpp">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\Base.h">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\CRC32.h">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\RefArray.h">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\RefArray.hpp">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\Type.h">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Thread\Thread.h">
+      <Filter>头文件\MGE_Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\Client.h">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\Client.hpp">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\ClientHandler.h">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\ClientHandler.hpp">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\Network.h">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\Server.h">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\Server.hpp">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\TSocket.h">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_File\File.h">
+      <Filter>头文件\MGE_File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_File\FileStream.h">
+      <Filter>头文件\MGE_File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__MathTool\MathTool.h">
+      <Filter>头文件\MGE__MathTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__Config\Config.h">
+      <Filter>头文件\MGE__Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__Config\ConfigFile.h">
+      <Filter>头文件\MGE__Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__MathTool\MathTool.hpp">
+      <Filter>头文件\MGE__MathTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__Config\Config.hpp">
+      <Filter>头文件\MGE__Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\Base.hpp">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMGEv2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\Array.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\CRC32.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\Hashtable.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\ObjectArray.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\RefArray.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\String.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Barrier.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Condition.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Lock.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Mutex.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\RWLock.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Semaphore.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\SpinLock.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Thread.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Network\Client.cpp">
+      <Filter>源文件\MGE_Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Network\ClientHandler.cpp">
+      <Filter>源文件\MGE_Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Network\Network.cpp">
+      <Filter>源文件\MGE_Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Network\Server.cpp">
+      <Filter>源文件\MGE_Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Network\TSocket.cpp">
+      <Filter>源文件\MGE_Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\String16.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\WString.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\Variant.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_File\File.cpp">
+      <Filter>源文件\MGE_File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_File\FileStream.cpp">
+      <Filter>源文件\MGE_File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\MathTool.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Matrix22f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Matrix33f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Matrix34f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Matrix44f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Quaternionf.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\TexCoord2f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Transformf.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Triangle.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Vector3f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Vector4f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__Config\Config.cpp">
+      <Filter>源文件\MGE__Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__Config\ConfigFile.cpp">
+      <Filter>源文件\MGE__Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

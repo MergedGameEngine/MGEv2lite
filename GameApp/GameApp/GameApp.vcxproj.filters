@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\MGE__Config">
+      <UniqueIdentifier>{f638f8f3-b97b-4fdd-bfea-b73ae8d9fb71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE__MathTool">
+      <UniqueIdentifier>{a2106886-649c-454f-ab13-5a115d4b7f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE_Base">
+      <UniqueIdentifier>{20b048e5-3cea-43f0-bcc3-1e3506a6aa45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE_File">
+      <UniqueIdentifier>{adce9f87-d3d9-4d16-b56d-85e09146f36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE_Network">
+      <UniqueIdentifier>{ec349137-a70b-4dd6-89e1-e272d14bfd7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE_Thread">
+      <UniqueIdentifier>{2ef18eec-be07-4722-b2dd-732bef61b9be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGEv2__Game">
+      <UniqueIdentifier>{92a32c5d-70ea-4456-892e-4e0c94b4dddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGEv2__GLESRenderer">
+      <UniqueIdentifier>{ea75b610-1f91-4ce7-ac67-08f0ccf92761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGEv2__GLRenderer">
+      <UniqueIdentifier>{453a6150-0a6e-4904-9211-ef153e1ea0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGEv2__VKRenderer">
+      <UniqueIdentifier>{01db9784-d07e-40da-8d4a-626ba871abff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE__Config">
+      <UniqueIdentifier>{fe3fd64e-90f7-4ad5-aa92-8f692d9cc207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE__MathTool">
+      <UniqueIdentifier>{fcc956c4-cc33-4de8-8440-74740dc7c4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE_Base">
+      <UniqueIdentifier>{5c03b3ea-8d65-4b50-871a-6947f67fa121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE_File">
+      <UniqueIdentifier>{24d91e67-31c0-4f96-aa7f-938d3c76d720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE_Network">
+      <UniqueIdentifier>{e7a57043-68e3-42e5-a76b-150ca4799f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE_Thread">
+      <UniqueIdentifier>{4ac37c9d-17c9-4c36-a4f1-6dfb2c206b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGEv2__Game">
+      <UniqueIdentifier>{0b502291-7592-48ca-881d-ea3eb6533c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGEv2__GLESRenderer">
+      <UniqueIdentifier>{7b00ff55-2467-4be0-b9b6-a7c37d6f6b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGEv2__GLRenderer">
+      <UniqueIdentifier>{cfceeaae-128e-4580-9c04-67be19a5be4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGEv2__VKRenderer">
+      <UniqueIdentifier>{f5bbf6d6-0213-48ce-8978-7c7c69ba4854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE__ModelData">
+      <UniqueIdentifier>{f5932a09-b207-45d4-9418-68267fb4423a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE__ModelData">
+      <UniqueIdentifier>{16289616-06b6-42aa-9726-58d7ef97e612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE__ModelData\Animation">
+      <UniqueIdentifier>{c201c2eb-832f-4016-a74c-6d0f37c5708d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE__ModelData\Collision">
+      <UniqueIdentifier>{23ab9cdc-aafb-4d96-87a7-79eddd7eb5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE__ModelData\Model">
+      <UniqueIdentifier>{050ffd32-557c-421f-9387-b3422e8da12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGE__ModelData\Texture">
+      <UniqueIdentifier>{be42e098-fe08-4cdf-8e50-44ce50b204af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE__ModelData\Animation">
+      <UniqueIdentifier>{c1e73afb-6837-436e-9ca3-a83dee4a035b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE__ModelData\Collsion">
+      <UniqueIdentifier>{008c9667-7904-4d02-83fc-c1e10399425a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE__ModelData\Model">
+      <UniqueIdentifier>{f72234d5-d08b-4efd-ae03-061676181127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGE__ModelData\Texture">
+      <UniqueIdentifier>{740cac69-0aa2-416a-b7fc-0c387828c38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MGEv2__Game\RendererInterface">
+      <UniqueIdentifier>{93adb995-8fbd-43e3-b893-e54ab6b7c401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MGEv2__Game\RendererInterface">
+      <UniqueIdentifier>{b2ffee52-622a-445e-af2d-f192e92586fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{16b92739-1560-43e4-95ec-12b049c69c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\_MGEv1_Test">
+      <UniqueIdentifier>{705877b1-9416-4410-a2cb-9c0554330acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\_MGEv1_Test">
+      <UniqueIdentifier>{e5594972-21c6-4a40-83c9-836da4ab31b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="GameApp.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\Debug\shaders\norm.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Debug\shaders\norm.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Debug\shaders\skinning.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Debug\shaders\skinning.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Debug\shaders\stransform.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Debug\shaders\stransform.vs">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__Config\Config.h">
+      <Filter>头文件\MGE__Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__Config\ConfigFile.h">
+      <Filter>头文件\MGE__Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__MathTool\MathTool.h">
+      <Filter>头文件\MGE__MathTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\Array.h">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\Array.hpp">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\Base.h">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\CRC32.h">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\RefArray.h">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\RefArray.hpp">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\Type.h">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_File\File.h">
+      <Filter>头文件\MGE_File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_File\FileStream.h">
+      <Filter>头文件\MGE_File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\Client.h">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\Client.hpp">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\ClientHandler.h">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\ClientHandler.hpp">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\Network.h">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\Server.h">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\Server.hpp">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Network\TSocket.h">
+      <Filter>头文件\MGE_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Thread\Thread.h">
+      <Filter>头文件\MGE_Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLFrameObject.h">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLFrameObject.hpp">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLMeshObject.h">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLMeshObject.hpp">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLParameter.h">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLParameter.hpp">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLRendererContext.h">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLRendererObject.h">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLRendererObject.hpp">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLShaderObject.h">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLShaderObject.hpp">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLTextureObject.h">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__GLRenderer\GLTextureObject.hpp">
+      <Filter>头文件\MGEv2__GLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\KeyFrame.h">
+      <Filter>头文件\MGE__ModelData\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\KeyFrame.hpp">
+      <Filter>头文件\MGE__ModelData\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Sequence.h">
+      <Filter>头文件\MGE__ModelData\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Sequence.hpp">
+      <Filter>头文件\MGE__ModelData\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\CollisionDetectingMatrices.h">
+      <Filter>头文件\MGE__ModelData\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\CollisionDetectingMatrices.hpp">
+      <Filter>头文件\MGE__ModelData\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\CollisionDetectingMatricesController.h">
+      <Filter>头文件\MGE__ModelData\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\CollisionDetectingMatricesController.hpp">
+      <Filter>头文件\MGE__ModelData\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Bone.h">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Bone.hpp">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\BoneController.h">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\BoneTreeNode.h">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\BoneTreeNode.hpp">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Mesh.h">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Mesh.hpp">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Model.h">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Model.hpp">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\DDSTexture.h">
+      <Filter>头文件\MGE__ModelData\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\DDSTexture.hpp">
+      <Filter>头文件\MGE__ModelData\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Texture.h">
+      <Filter>头文件\MGE__ModelData\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Texture.hpp">
+      <Filter>头文件\MGE__ModelData\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\TGATexture.h">
+      <Filter>头文件\MGE__ModelData\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\TGATexture.hpp">
+      <Filter>头文件\MGE__ModelData\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\ModelPack.h">
+      <Filter>头文件\MGE__ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\ModelPack.hpp">
+      <Filter>头文件\MGE__ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\MessageProc.h">
+      <Filter>头文件\MGEv2__Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\MessageProc.hpp">
+      <Filter>头文件\MGEv2__Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\Sandbox.h">
+      <Filter>头文件\MGEv2__Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\Sandbox.hpp">
+      <Filter>头文件\MGEv2__Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\MGEImport.h">
+      <Filter>头文件\MGEv2__Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__MathTool\MathTool.hpp">
+      <Filter>头文件\MGE__MathTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE_Base\Base.hpp">
+      <Filter>头文件\MGE_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__Config\Config.hpp">
+      <Filter>头文件\MGE__Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVFrameObject.h">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVMeshObject.h">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVParameter.h">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVRendererContext.h">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVRendererObject.h">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVShaderObject.h">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVTextureObject.h">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVFrameObject.hpp">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVMeshObject.hpp">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVParameter.hpp">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVRendererContext.hpp">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVRendererObject.hpp">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVShaderObject.hpp">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\InterfaceVTextureObject.hpp">
+      <Filter>头文件\MGEv2__Game\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\Core.h">
+      <Filter>头文件\MGEv2__Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\Core.hpp">
+      <Filter>头文件\MGEv2__Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\GameObject.h">
+      <Filter>头文件\MGEv2__Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGEv2__Game\GameObject.hpp">
+      <Filter>头文件\MGEv2__Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_MGEv1_Test\RendererOutput.h">
+      <Filter>头文件\_MGEv1_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Surface.h">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MGE__ModelData\Surface.hpp">
+      <Filter>头文件\MGE__ModelData\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__Config\Config.cpp">
+      <Filter>源文件\MGE__Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__Config\ConfigFile.cpp">
+      <Filter>源文件\MGE__Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\MathTool.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Matrix22f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Matrix33f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Matrix34f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Matrix44f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Quaternionf.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\TexCoord2f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Transformf.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Triangle.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Vector3f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__MathTool\Vector4f.cpp">
+      <Filter>源文件\MGE__MathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\Array.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\CRC32.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\Hashtable.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\ObjectArray.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\RefArray.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\String.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\String16.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\Variant.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Base\WString.cpp">
+      <Filter>源文件\MGE_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_File\File.cpp">
+      <Filter>源文件\MGE_File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_File\FileStream.cpp">
+      <Filter>源文件\MGE_File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Network\Client.cpp">
+      <Filter>源文件\MGE_Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Network\ClientHandler.cpp">
+      <Filter>源文件\MGE_Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Network\Network.cpp">
+      <Filter>源文件\MGE_Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Network\Server.cpp">
+      <Filter>源文件\MGE_Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Network\TSocket.cpp">
+      <Filter>源文件\MGE_Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Barrier.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Condition.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Lock.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Mutex.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\RWLock.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Semaphore.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\SpinLock.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE_Thread\Thread.cpp">
+      <Filter>源文件\MGE_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__GLRenderer\GLFrameObject.cpp">
+      <Filter>源文件\MGEv2__GLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__GLRenderer\GLMeshObject.cpp">
+      <Filter>源文件\MGEv2__GLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__GLRenderer\GLParameter.cpp">
+      <Filter>源文件\MGEv2__GLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__GLRenderer\GLRendererContext.cpp">
+      <Filter>源文件\MGEv2__GLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__GLRenderer\GLRendererObject.cpp">
+      <Filter>源文件\MGEv2__GLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__GLRenderer\GLShaderObject.cpp">
+      <Filter>源文件\MGEv2__GLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__GLRenderer\GLTextureObject.cpp">
+      <Filter>源文件\MGEv2__GLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\KeyFrame.cpp">
+      <Filter>源文件\MGE__ModelData\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\Sequence.cpp">
+      <Filter>源文件\MGE__ModelData\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\CollisionDetectingMatrices.cpp">
+      <Filter>源文件\MGE__ModelData\Collsion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\CollisionDetectingMatricesController.cpp">
+      <Filter>源文件\MGE__ModelData\Collsion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\Bone.cpp">
+      <Filter>源文件\MGE__ModelData\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\BoneController.cpp">
+      <Filter>源文件\MGE__ModelData\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\BoneTreeNode.cpp">
+      <Filter>源文件\MGE__ModelData\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\Mesh.cpp">
+      <Filter>源文件\MGE__ModelData\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\Model.cpp">
+      <Filter>源文件\MGE__ModelData\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\DDSTexture.cpp">
+      <Filter>源文件\MGE__ModelData\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\Texture.cpp">
+      <Filter>源文件\MGE__ModelData\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\TGATexture.cpp">
+      <Filter>源文件\MGE__ModelData\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\ModelPack.cpp">
+      <Filter>源文件\MGE__ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\MessageProc.cpp">
+      <Filter>源文件\MGEv2__Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\Sandbox.cpp">
+      <Filter>源文件\MGEv2__Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\InterfaceVFrameObject.cpp">
+      <Filter>源文件\MGEv2__Game\RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\InterfaceVMeshObject.cpp">
+      <Filter>源文件\MGEv2__Game\RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\InterfaceVParameter.cpp">
+      <Filter>源文件\MGEv2__Game\RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\InterfaceVRendererContext.cpp">
+      <Filter>源文件\MGEv2__Game\RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\InterfaceVRendererObject.cpp">
+      <Filter>源文件\MGEv2__Game\RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\InterfaceVShaderObject.cpp">
+      <Filter>源文件\MGEv2__Game\RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\InterfaceVTextureObject.cpp">
+      <Filter>源文件\MGEv2__Game\RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\Core.cpp">
+      <Filter>源文件\MGEv2__Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGEv2__Game\GameObject.cpp">
+      <Filter>源文件\MGEv2__Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_MGEv1_Test\RendererOutput.cpp">
+      <Filter>源文件\_MGEv1_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MGE__ModelData\Surface.cpp">
+      <Filter>源文件\MGE__ModelData\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameApp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
